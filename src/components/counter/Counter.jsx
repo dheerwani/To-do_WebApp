@@ -67,7 +67,7 @@ class CounterButton extends Component {
         // this.increment = this.increment.bind(this);
         // this.decrement = this.decrement.bind(this);
     }
-
+    // checking token
     render() {
     return (
       <div className="CounterButton">
