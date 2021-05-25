@@ -5,10 +5,13 @@ import FirstComponent , {SecondComponent} from './components/learning-examples/F
 import ThirdComponent from './components/learning-examples/ThirdComponent'
 import FourthComponent from './components/learning-examples/FourthComponent'
 import Counter from './components/counter/Counter'
+import TodoApp from './components/to-do/TodoApp'
+
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <Counter/> */}
+      <TodoApp/>
     </div>
   );
 }
